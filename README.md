@@ -23,6 +23,7 @@ For this workshop you will need:
     - On OSX the default compiler is `clang`: this can be installed by running `xcode-select --install` in the terminal after installing Xcode if you don't already have it.
     - On Linux: GCC can be installed by following the guidance for your distro on installing gcc (e.g. https://www.makeuseof.com/how-to-install-c-compiler-linux/).
     - On Windows: I have little experience but it appears the accepted method is installing via MinGW-w64 (e.g. https://www.scaler.com/topics/c/c-compiler-for-windows/).
+- *wget*, to download ICs. 
 
 ## Installing SWIFT
 
