@@ -70,7 +70,7 @@ Now that the environment is active we need to install the packages we need. Ther
 
 First off let's install some simple Python packages for working with arrays, making plots, and working with HDF5 format data. To install there run the following:
 ```
-pip install numpy matplotlib h5py
+pip install numpy matplotlib h5py unyt
 ```
 
 We will also need a SWIFT helper package for interacting with the data and making intial conditions called `swiftsimio` written by Dr Josh Borrow. As before we can install this via pip:
