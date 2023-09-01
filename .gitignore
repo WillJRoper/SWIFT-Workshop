@@ -8,7 +8,7 @@ ics/*.hdf5
 
 # Ignore all snapshots
 snapshots/*/*.hdf5
-snapshots/*/*.xml
+snapshots/*/*.xmf
 
 # Ignore videos
 videos/*.mp4
