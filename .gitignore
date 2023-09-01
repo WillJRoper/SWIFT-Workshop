@@ -6,6 +6,9 @@ __pycache__/
 # Ignore initial condition files
 ics/*.hdf5
 
+# Ignore all snapshots
+snapshots/*/*
+
 # Ignore videos
 videos/*.mp4
 
