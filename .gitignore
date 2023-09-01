@@ -7,7 +7,8 @@ __pycache__/
 ics/*.hdf5
 
 # Ignore all snapshots
-snapshots/*/*
+snapshots/*/*.hdf5
+snapshots/*/*.xml
 
 # Ignore videos
 videos/*.mp4
