@@ -6,6 +6,9 @@ __pycache__/
 # Ignore initial condition files
 ics/*.hdf5
 
+# Ignore videos
+videos/*.mp4
+
 # C extensions
 *.so
 
