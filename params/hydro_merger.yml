@@ -45,10 +45,10 @@ Gravity:
   epsilon_fmm:              0.001
   theta_cr:                 0.7       # Opening angle (Multipole acceptance criterion)
   mesh_side_length:         64
-  comoving_DM_softening:         0.006368731743269718     # Comoving DM softening length (in internal units).
-  max_physical_DM_softening:     0.0017212788495323563    # Max physical DM softening length (in internal units).
-  comoving_baryon_softening:     0.006516202449911252    # Comoving softening for baryons (1.79 ckpc)
-  max_physical_baryon_softening: 0.0017611357972733112    # Physical softening for baryons (0.70 pkpc)
+  comoving_DM_softening:         0.002547492697307887     # Comoving DM softening length (in internal units).
+  max_physical_DM_softening:     0.0006885115398129423    # Max physical DM softening length (in internal units).
+  comoving_baryon_softening:     0.002606480979964501    # Comoving softening for baryons (1.79 ckpc)
+  max_physical_baryon_softening: 0.0007044543189093246    # Physical softening for baryons (0.70 pkpc)
 
 # Parameters related to the initial conditions
 InitialConditions:

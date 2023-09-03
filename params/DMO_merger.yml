@@ -45,8 +45,8 @@ Gravity:
   epsilon_fmm:              0.001
   theta_cr:                 0.7       # Opening angle (Multipole acceptance criterion)
   mesh_side_length:         128
-  comoving_DM_softening:         0.006392508240465104     # Comoving DM softening length (in internal units).
-  max_physical_DM_softening:     0.0017277049298554336    # Max physical DM softening length (in internal units).
+  comoving_DM_softening:         0.002557003296186042     # Comoving DM softening length (in internal units).
+  max_physical_DM_softening:     0.0006910819719421734    # Max physical DM softening length (in internal units).
 
 # Parameters related to the initial conditions
 InitialConditions:
