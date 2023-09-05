@@ -29,6 +29,11 @@ For this workshop you will need:
 
 In addition to the above, to run SWIFT you will need some extra dependencies. These are listed here: https://swift.dur.ac.uk/docs/GettingStarted/compiling_code.html. All can easily be installed via package managers (on OSX I recommend using Homebrew to get them, https://brew.sh/). 
 
+Mac Note: You may need to install the following along with libtool:
+```
+brew install autoconf automake libtool
+```
+
 To install SWIFT run `git clone https://github.com/SWIFTSIM/SWIFT` in the terminal in the directory where you want to have SWIFT. Then enter the cloned repo and run (NOTE: see the caveats below for mac users):
 ```
 ./autogen.sh
