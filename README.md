@@ -34,7 +34,7 @@ Mac Note: You may need to install the following along with libtool:
 brew install autoconf automake libtool
 ```
 
-To install SWIFT run `git clone https://github.com/SWIFTSIM/SWIFT` in the terminal in the directory where you want to have SWIFT. Then enter the cloned repo and run (NOTE: see the caveats below for mac users):
+To install SWIFT run `git clone https://github.com/SWIFTSIM/SWIFT` in the terminal to get the SWIFT repo in the directory where you want it. Then enter the cloned repo and run (NOTE: see the caveats below for mac users):
 ```
 ./autogen.sh
 ./configure --disable-mpi
