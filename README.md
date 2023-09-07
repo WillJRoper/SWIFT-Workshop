@@ -6,7 +6,7 @@ This repo contains everything you need to work through the workshop. In this wor
 - Run full cosmological simulations with gravity, hydrodynamics, star formation, stellar feedback, and black holes (and more).
 - Analyse and visualise the simulations.
 
-Below is some initial setup needed to run the notebooks and simulations that make up this workshop. If you have access to an HPC I recommend using it for this workshop but your laptop can definitely be used! If you have any issues with the installation we will be able to sort these out in the workshop so do not fret!
+Below is some initial setup needed to run the notebooks and simulations that make up this workshop. If you have access to an HPC you can use that instead for this workshop but its less fun than having a universe in your laptop! If you have any issues with the installation we will be able to sort these out in the workshop so do not fret!
 
 # Set up
 
