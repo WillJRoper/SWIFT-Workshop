@@ -3,14 +3,14 @@
 This repo contains everything you need to work through the workshop. In this workshop, you will:
 
 - Generate toy initial conditions.
-- Run full cosmological simulations with gravity, hydrodynamics, star formation, stellar feedback, and black holes (and more).
+- Run full cosmological simulations with gravity, hydrodynamics, star formation, stellar feedback, black holes, (and more).
 - Analyse and visualise the simulations.
 
-Below is some initial setup needed to run the notebooks and simulations that make up this workshop. If you have access to an HPC you can use that instead for this workshop but its less fun than having a universe in your laptop! If you have any issues with the installation we will be able to sort these out in the workshop so do not fret!
+Below is some initial setup needed to run the notebooks and simulations that make up this workshop. If you have access to an HPC you can use that instead for this workshop, but it's less fun than having a universe in your laptop! If you have any issues with the installation, we will be able to sort these out in the workshop, so do not fret!
 
 # Set up
 
-Before we can start making galaxies and building universes in your computer we need to get some software and set up an environment. This environment will ensure everything remains self-contained without messing with any of your existing Python installations. Note that we highly recommend using a UNIX-based system (OSX/Linux), Windows users may have a harder time.
+Before we can start making galaxies and building universes in your computer, we need to get some software and set up an environment. This environment will ensure everything remains self-contained without messing with any of your existing Python installations. Note that we highly recommend using a UNIX-based system (OSX/Linux), Windows users may have a harder time.
 
 ## Necessary Software
 
@@ -55,7 +55,7 @@ make
 
 ## Setting up the Python environment
 
-First off let us collect together all the Python packages we will need in an environment. There are multiple ways to make a Python environment, you may have come across the `conda` method but here we will use `venv`. Don't let this confuse you they are both correct ways but `venv` comes packaged with all Python distributions regardless of how you installed Python.
+First off let us collect together all the Python packages we will need in an environment. There are multiple ways to make a Python environment, you may have come across the `conda` method, but here we will use `venv`. Don't let this confuse you, they are both correct ways, but `venv` comes packaged with all Python distributions regardless of how you installed Python.
 
 First, open the terminal and navigate to where you would like to create an environment. It will be stored in a directory when created, it doesn't matter where this directory is.
 
@@ -73,12 +73,12 @@ in the terminal. You may want to make an alias for this so you don't always have
 
 Now that the environment is active we need to install the packages we need. There aren't many and all can be installed via the Python package manager `pip`.
 
-First off let's install some simple Python packages for working with arrays, making plots, and working with HDF5 format data. To install there run the following:
+First off let's install some simple Python packages for working with arrays, making plots, and working with HDF5 format data. To install there, run the following:
 ```
 pip install numpy matplotlib h5py unyt astropy
 ```
 
-We will also need a SWIFT helper package for interacting with the data and making intial conditions called `swiftsimio` written by Dr Josh Borrow. As before we can install this via pip:
+We will also need a SWIFT helper package for interacting with the data and making intial conditions called `swiftsimio` written by Dr Josh Borrow. As before, we can install this via pip:
 ```
 pip install swiftsimio
 ```
@@ -96,7 +96,7 @@ git clone https://github.com/WillJRoper/SWIFT-Workshop.git
 cd SWIFT-Workshop
 ```
 
-Now we have the repo and are inside it we can start a `jupyter notebook` session and get to work. To begin simply run
+Now we have the repo and are inside it we can start a `jupyter notebook` session and get to work. To begin, simply run
 ```
 jupyter notebook
 ```
