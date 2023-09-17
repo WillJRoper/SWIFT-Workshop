@@ -44,6 +44,13 @@ If everything has run successfully you should find an executable has been create
 
 Note, if this hasn't worked you can still continue with the next steps to setup your Python environment.
 
+### Pointing to dependencies
+
+When configuring SWIFT later for actual simulations you may need to point it to the directory containing the dependency. This can be done with the `--with-xxxx` flag during configuration. For most dependencies you only need to point to the root directory of the package, for HDF5 you need to point to the executable. Here is an example pointing to `FFTW`, `GSL` and `HDF5` installed at the default location for Apple silicon Macs using Homebrew.
+```
+./configure ... --with-fftw=/opt/homebrew/Cellar/fftw/3.3.10_1/ --with-gsl=/opt/homebrew/Cellar/gsl/2.7.1/ --with-hdf5=/opt/homebrew/Cellar/hdf5/1.14.2/bin/h5cc
+```
+
 ### Mac caveats
 
 Due to some issues with clang if you are using OSX you will need some extra configuration arguments. Instead of the above run:
