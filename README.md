@@ -91,7 +91,7 @@ We will also need a SWIFT helper package for interacting with the data and makin
 pip install swiftsimio
 ```
 
-Finally, we will need Jupyter Notebooks to interact with the notebooks that make up this workshop.
+Finally, we will need Jupyter Notebooks to interact with the notebooks that make up this workshop (unless you have an IDE that works with notebooks, e.g. VSCode, if so you can skip this).
 ``` bash
 pip install notebook
 ```
@@ -104,7 +104,7 @@ git clone https://github.com/WillJRoper/SWIFT-Workshop.git
 cd SWIFT-Workshop
 ```
 
-Now we have the repo and are inside it we can start a `jupyter notebook` session and get to work. To begin, simply run
+Now we have the repo and are inside it we can start a `jupyter notebook` session and get to work (or open the repo in your IDE). To begin with notebooks, simply run
 ``` bash
 jupyter notebook
 ```
