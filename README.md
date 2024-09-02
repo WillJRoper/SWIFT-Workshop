@@ -3,6 +3,7 @@
 This repo contains everything you need to work through the workshop. In this workshop, you will:
 
 - Generate toy initial conditions.
+- Design your own dark matter halo mergers.
 - Run full cosmological simulations with gravity, hydrodynamics, star formation, stellar feedback, black holes, (and more).
 - Analyse and visualise the simulations.
 
