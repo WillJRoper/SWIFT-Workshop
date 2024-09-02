@@ -96,6 +96,8 @@ Finally, we will need Jupyter Notebooks to interact with the notebooks that make
 pip install notebook
 ```
 
+Shameless self promotion: You may also want to install ``h5forest`` for interactively probing HDF5 files on the command line. This package is currently in beta but can be installed by cloning the repo and running ``pip install .`` within it (https://github.com/WillJRoper/h5forest).
+
 ## Cloning this repo
 
 The vast majority of this workshop will be conducted via notebooks in a public GitHub repo. You will need to clone this repo. Navigate to where you want to store the directory and run the following.
